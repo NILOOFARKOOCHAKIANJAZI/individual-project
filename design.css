@@ -1,0 +1,237 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 10px;
+}
+.container {
+    display: flex;
+    max-width: 100%;
+    margin: 5px auto;
+    margin-bottom: 5px;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);}
+
+.banner {
+    padding: 10px 20px;
+    display: flex; 
+    align-items: center;
+    border: 0px outset rgb(241, 195, 109);
+    background-color: rgb(241, 195, 109);
+    padding: 0px 0;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0px; 
+  }
+.banner img {
+    margin-right: 20px;
+    width: 75px;
+    height: 75px; 
+}
+.banner h2 {
+   
+    margin: 0; 
+    font-size: 24px;
+}
+.sidebar {
+    width: 100px;
+    background-color: rgb(241, 195, 109);
+    color: #000000;
+    padding: 20px;
+    
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar li {
+    margin-bottom: 10px;
+}
+.sidebar a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+}
+.sidebar a:hover,.sidebar a:active,.sidebar a:focus{
+    background-color: #000000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: outset;
+    color: rgb(231, 139, 53);
+}
+h6{
+    border: 1px outset rgb(241, 195, 109);
+    border-radius: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    background-color: rgb(241, 195, 109);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0cm;
+    text-align: center;
+}
+.sidebar2 {
+    flex: 1;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    
+}
+.sidebar2 img {
+    max-width: 260px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+.sidebar2 p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.contact-info {
+    margin-top: 20px;
+}
+.contact-info p {
+    margin-bottom: 5px;
+}
+.content {
+    flex: 2;
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group textarea {
+    height: 100px;
+}
+.range-value {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+input[type="submit"] {
+    background-color: rgb(241, 195, 109); 
+    color: #000000; 
+    border: none;
+    margin-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="submit"]:hover {
+    background-color: #f8f4dc;
+  }
+input[type="reset"] {
+    background-color: rgb(241, 195, 109); 
+    color: #000000; 
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="reset"]:hover {
+    background-color: #f8f4dc;
+}
+table {
+    width: 45%;
+    border-collapse: collapse;
+    
+}
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: rgb(241, 195, 109);
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.text {
+    flex: 1;
+    float: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+}
+.property1 {
+    margin-left: 5px;
+    float: left;
+    margin-right: 1cm;
+   
+}
+.property1 img{
+    width: 450px;
+    height: 450px;
+}
+.showingimage{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 35px;
+    padding: 20px;
+   
+}
+.showingimage img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.buttemBack{
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border-style: outset;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;   
+}
+.text2 {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+}
+.text2 img{
+    width: 200px; 
+    height: auto;
+    margin-right: 30px;
+    border-radius: 2px;
+}
+.text2 span{
+    font-weight: bold;
+}
+.content li{
+    list-style: square;
+}
